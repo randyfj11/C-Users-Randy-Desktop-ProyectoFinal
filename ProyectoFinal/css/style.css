@@ -1,0 +1,149 @@
+#descripcion{
+    resize: none;
+}
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+}
+
+body{
+    background-color: #fffff;
+}
+.h{
+height: 500px;
+}
+#img1{
+    height: 200px;
+    width: 200px
+
+}
+
+#img2{
+    height: 400px;
+    width: 400px;
+}
+
+#img3{
+    height: 200px;
+    width: 200px;
+}
+#color{
+    background-color:  #000000; 
+}
+/* Estilos para el carrusel */
+#carouselPromociones {
+    width: 500px;
+    height: 500px;
+  }
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    animation: desplazar 10s infinite linear; /* Velocidad de desplazamiento y duración */
+  }
+  
+  .slider img {
+    width: 200px;
+    height: auto;
+  }
+  
+  @keyframes desplazar {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100px * 3)); /* Ajusta el valor según la cantidad de imágenes visibles */
+    }
+  }
+  .stars {
+    display: inline-block;
+    font-size: 0;
+  }
+  .quantity {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .quantity-input {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .quantity-button {
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .quantity-button:hover {
+    background-color: #e0e0e0;
+  }
+  .game-promotion h1 {
+    font-size: 16px; /* Tamaño de fuente más pequeño */
+    margin-top: 5px; /* Espaciado superior */
+    color: #333; /* Color del texto */
+  }
+  /* Ocultar checkbox */
+.dropdown-checkbox {
+  display: none;
+}
+
+/* Estilos para el contenido desplegable */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0; /* Alineación a la derecha */
+  background-color: #0000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+/* Estilos para cada elemento de contenido */
+.dropdown-content .content {
+  display: block;
+  padding: 3px;
+  color: #333;
+}
+
+/* Mostrar contenido al hacer clic en el enlace */
+.dropdown-checkbox:checked + label + .dropdown-content {
+  display: block;
+}
+ /* Estilos para el botón */
+.button-style {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambiar color de fondo al pasar el cursor */
+.button-style:hover {
+  background-color: #2980b9;
+}
+   
+
+    
+  
+  
+  
+
